@@ -12,8 +12,6 @@ import requests
 from discord import Game
 from discord import Activity, ActivityType
 
-update_application(repo_owner, repo_name, current_version)
-
 async def delete_channel(channel):
     try:
         start_time = time.time() 
