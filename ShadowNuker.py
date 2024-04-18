@@ -12,45 +12,6 @@ import requests
 from discord import Game
 from discord import Activity, ActivityType
 
-def get_latest_release_version(repo_owner, repo_name):
-    url = f'https://api.github.com/repos/{repo_owner}/{repo_name}/releases/latest'
-    response = requests.get(url)
-    
-    if response.status_code == 200:
-        release_info = response.json()
-        latest_version = release_info['tag_name']
-        return latest_version
-    else:
-        print(f"Error in the request : {response.status_code}")
-        return None
-
-def update_application(repo_owner, repo_name, current_version):
-    latest_version = get_latest_release_version(repo_owner, repo_name)
-
-    if latest_version is not None and current_version < latest_version:
-        print(f"A new version is available : {latest_version}")
-        
-        download_url = f'https://github.com/{repo_owner}/{repo_name}/archive/{latest_version}.zip'
-        download_path = 'latest_version.zip'
-        
-        with requests.get(download_url, stream=True) as response:
-            with open(download_path, 'wb') as file:
-                for chunk in response.iter_content(chunk_size=8192):
-                    file.write(chunk)
-        
-
-        
-        
-        print("Update Finished.")
-        exit()
-    else:
-        pass
-        
-
-repo_owner = 'ShadowJurmik'
-repo_name = 'ShadowNuker'
-current_version = 'V1.2'
-
 update_application(repo_owner, repo_name, current_version)
 
 async def delete_channel(channel):
@@ -631,7 +592,6 @@ async def auto_raid(server_id):
         log_message(Colors.dark_red, f"[-] Error: {e}")
 
 
-get_latest_release_version(repo_owner, repo_name)
 bot_token = input((Colorate.Color(Colors.light_gray, "Enter Bot Token: ")))
 server_id = input((Colorate.Color(Colors.light_gray, "Enter Server ID: ")))
 
