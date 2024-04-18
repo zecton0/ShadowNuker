@@ -1,0 +1,6 @@
+discord.py
+pystyle
+requests
+asyncio
+config
+
