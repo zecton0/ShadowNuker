@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🤖 ShadowNuker V1.1 💻
-  >> [discord server](https://discord.gg/2S5hRh9xGb) <<
+  » [discord server](https://discord.gg/2S5hRh9xGb) «
 </div>
 
 ## <a id="Tables-Of-Contents"></a>🔱 » Table Of Contents
