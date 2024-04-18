@@ -1,2 +1,5 @@
+title ShadowNuker - Installation of modules.
+@echo off
+cls
 python setup.py
-pause
+python ShadowNuker.py
