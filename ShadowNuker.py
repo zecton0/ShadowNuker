@@ -629,7 +629,7 @@ async def on_ready():
   ░ ░▒  ░ ░  ▒ ░▒░ ░   ▒   ▒▒ ░  ░ ▒  ▒    ░ ▒ ▒░    ▒ ░ ░   ░ ░░   ░ ▒░ ░░▒░ ░ ░  ░ ░▒ ▒░  ░ ░  ░   ░▒ ░ ▒░ 
   ░  ░  ░    ░  ░░ ░   ░   ▒     ░ ░  ░  ░ ░ ░ ▒     ░   ░      ░   ░ ░   ░░░ ░ ░  ░ ░░ ░     ░      ░░   ░  
         ░    ░  ░  ░       ░  ░    ░         ░ ░       ░              ░     ░      ░  ░       ░  ░    ░      
-                               ░         » By TheJurmik | Version, 1.1 «                                       
+                               ░         » By TheJurmik | Version, 1.5 «                                       
                                                                                                              
       -> Spamming <-               -> Nuke <-                 -> Creating <-              -> All <-          
                                                                                                              
