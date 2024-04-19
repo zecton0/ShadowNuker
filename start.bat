@@ -1,4 +1,4 @@
-title ShadowNuker - Installation of modules.
+title ShadowNuker
 @echo off
 cls
 python ShadowNuker.py
