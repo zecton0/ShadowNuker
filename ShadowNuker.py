@@ -633,34 +633,34 @@ async def on_ready():
                                                                                                              
       -> Spamming <-               -> Nuke <-                 -> Creating <-              -> All <-          
                                                                                                              
-    » 3 « Spam Channels       » 11 « Configured Raid      » 2 « Create Channels        » 10 « Dm Members     
-    » 4 « WebHook Spam        » 9 « Change Server         » 7 « Create Roles           » 6 « Kick All        
-                              » 8 « Get Admin                                          » 5 « Ban All         
-                              » 1 « Nuke                                                                     
+    » 1 « Spam Channels       » 3 « Configured Raid      » 7 « Create Channels        » 9 « Dm Members     
+    » 2 « WebHook Spam        » 4 « Change Server        » 8 « Create Roles           » 10 « Kick All        
+                              » 5 « Get Admin                                         » 11 « Ban All         
+                              » 6 « Nuke                                                                     
                                                                                                               
     Choice :  """)))
 
-        if choice == '1':
+        if choice == '6':
             await nuke(server_id)
-        elif choice == '2':
-            await create_channels(server_id)
-        elif choice == '3':
-            await spam_channel(server_id)
-        elif choice == '6':
-            await ban_all(server_id, bot.user.id)
-        elif choice == '5':
-            await kick_all(server_id, bot.user.id)
-        elif choice == '10':
-            await dm_all(server_id)
         elif choice == '7':
-            await create_role(server_id)
-        elif choice == '8':
-            await get_admin(server_id)
-        elif choice == '9':
-            await change_server(server_id)
-        elif choice == '4':
-            await webhook_spam(server_id)   
+            await create_channels(server_id)
+        elif choice == '1':
+            await spam_channel(server_id)
         elif choice == '11':
+            await ban_all(server_id, bot.user.id)
+        elif choice == '10':
+            await kick_all(server_id, bot.user.id)
+        elif choice == '9':
+            await dm_all(server_id)
+        elif choice == '8':
+            await create_role(server_id)
+        elif choice == '5':
+            await get_admin(server_id)
+        elif choice == '4':
+            await change_server(server_id)
+        elif choice == '2':
+            await webhook_spam(server_id)   
+        elif choice == '3':
             await auto_raid(server_id)        
         else:
             print((Colorate.Color(Colors.dark_red, "[-] Invalid choice")))
