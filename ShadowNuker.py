@@ -629,30 +629,30 @@ async def on_ready():
   ░ ░▒  ░ ░  ▒ ░▒░ ░   ▒   ▒▒ ░  ░ ▒  ▒    ░ ▒ ▒░    ▒ ░ ░   ░ ░░   ░ ▒░ ░░▒░ ░ ░  ░ ░▒ ▒░  ░ ░  ░   ░▒ ░ ▒░ 
   ░  ░  ░    ░  ░░ ░   ░   ▒     ░ ░  ░  ░ ░ ░ ▒     ░   ░      ░   ░ ░   ░░░ ░ ░  ░ ░░ ░     ░      ░░   ░  
         ░    ░  ░  ░       ░  ░    ░         ░ ░       ░              ░     ░      ░  ░       ░  ░    ░      
-                               ░         » By TheJurmik | Version, 1.5 «                                       
+                               ░         » By TheJurmik | Version, 1.5 «                                     
                                                                                                              
       -> Spamming <-               -> Nuke <-                 -> Creating <-              -> All <-          
                                                                                                              
-    » 1 « Spam Channels       » 3 « Configured Raid      » 7 « Create Channels        » 9 « Dm Members     
-    » 2 « WebHook Spam        » 4 « Change Server        » 8 « Create Roles           » 10 « Kick All        
-                              » 5 « Get Admin                                         » 11 « Ban All         
-                              » 6 « Nuke                                                                     
-                                                                                                              
+    » 1 « Spam Channels       » 3 « Configured Raid      » 8 « Create Channels        » 10 « Dm Members      
+    » 2 « WebHook Spam        » 4 « Change Server        » 9 « Create Roles           » 11 « Kick All        
+                              » 5 « Get Admin                                         » 12 « Ban All         
+                              » 6 « Rem & Nuke                                                               
+                              » 7 « change & Nuke                                                             
     Choice :  """)))
 
         if choice == '6':
             await nuke(server_id)
-        elif choice == '7':
+        elif choice == '8':
             await create_channels(server_id)
         elif choice == '1':
             await spam_channel(server_id)
-        elif choice == '11':
+        elif choice == '12':
             await ban_all(server_id, bot.user.id)
-        elif choice == '10':
+        elif choice == '11':
             await kick_all(server_id, bot.user.id)
-        elif choice == '9':
+        elif choice == '10':
             await dm_all(server_id)
-        elif choice == '8':
+        elif choice == '9':
             await create_role(server_id)
         elif choice == '5':
             await get_admin(server_id)
@@ -661,7 +661,10 @@ async def on_ready():
         elif choice == '2':
             await webhook_spam(server_id)   
         elif choice == '3':
-            await auto_raid(server_id)        
+            await auto_raid(server_id)
+        elif
+            await nuke(server_id)
+            await change_server(server_id)
         else:
             print((Colorate.Color(Colors.dark_red, "[-] Invalid choice")))
 
