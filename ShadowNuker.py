@@ -662,7 +662,7 @@ async def on_ready():
             await webhook_spam(server_id)   
         elif choice == '3':
             await auto_raid(server_id)
-        elif
+        elif choice == '7':
             await nuke(server_id)
             await change_server(server_id)
         else:
