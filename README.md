@@ -26,12 +26,13 @@ ShadowNuker is the future of discord raider bots. In addition to having great ef
 - Dm All : Send a private message to all server members
 - Auto Raid : Fast Raid with configured options
 - Custom Bot Presence : Set your presence options in the config file
+- Multi features like nuke and change at once
 ```
 
 ## <a id="How To Use"></a>📜 » How To Use
 1. Install Python (3.10+) and add it to PATH.
 2. Download and extract latest ShadowNuker version.
-3. Install requirements → open the cmd and go in ShadowNuker folder then run `pip install -r requirements.txt`.
+3. Install requirements → start file named setup.bat
 4. Config the `config.py` if you want.
 5. Run `main.py` in the cmd → `python main.py`.
 6. Enter Bot token and server id.
@@ -52,7 +53,7 @@ ShadowNuker is the future of discord raider bots. In addition to having great ef
    - Active the Developer Mode.
    - Now you can copy the server or user ID by right clicking on their profile and selecting "Copy Server/User ID".
 
-**If anything didn't work join the [discord server](https://discord.gg/2S5hRh9xGb).**
+**Support for all peoples [discord server](https://discord.gg/2S5hRh9xGb).**
 
 ## <a id="Preview"></a>📷 » Preview 
 ![image](https://i.ibb.co/990JnFY/Sn-mek-obrazovky-3.png)
