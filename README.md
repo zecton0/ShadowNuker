@@ -1,17 +1,8 @@
 <div align="center">
 
-# 🤖 ShadowNuker V1.5 💻
+# ⚛️ ShadowNuker V1.5 💻
   » [discord server](https://discord.gg/2S5hRh9xGb) «
 </div>
-
-## <a id="Tables-Of-Contents"></a>🔱 » Table Of Contents
-- [Presentation](#🤖-»-Presentation)
-- [Requirements](#💻-»-Requirements)
-- [Features](#🛠-»-Features)
-- [How to use ](#📜-»-How-To-Use)
-  - [Get bot token](#get-bot-token)
-  - [Get Server Or User ID](#get-server-or-user-id)
-- [Preview](#📷-»-Preview)
 
 ## <a id="Presentation"></a>🤖 » Presentation
 ### What is ShadowNuker ? 
@@ -19,7 +10,6 @@ ShadowNuker is the future of discord raider bots. In addition to having great ef
 
 ## <a id="Requirements"></a>💻 » Requirements
 - Python 3.10+
-- Requirements.txt
 - An Active Internet Connection
 
 ## <a id="Features"></a>🛠 » Features
