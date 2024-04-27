@@ -34,7 +34,7 @@ ShadowNuker is the future of discord raider bots. In addition to having great ef
 2. Download and extract latest ShadowNuker version.
 3. Install requirements → start file named setup.bat
 4. Config the `config.py` if you want.
-5. Run `main.py` in the cmd → `python main.py`.
+5. Run `ShadowNuker.py` in the cmd → `python ShadowNuker.py`.
 6. Enter Bot token and server id.
    ### ⚙️ » Custom config
    - you can customize your bot, there is code in config.py that sets the config of the bot and you can add your own icon, messages, and more
