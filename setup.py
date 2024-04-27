@@ -4,7 +4,7 @@ import os
 print("Installing python pip modules for ShadowNuker")
 if sys.platform.startswith("win"):
     "WINDOWS"
-    os.system("pip install time")
+    os.system("pip install pystyle")
     os.system("pip install colorama")
     os.system("pip install requests")
     os.system("pip install json")
