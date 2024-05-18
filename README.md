@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚛️ ShadowNuker V1.5 💻
+# ⚛️ ShadowNuker V1.6 💻
   » [discord server](https://discord.gg/2S5hRh9xGb) «
 </div>
 
